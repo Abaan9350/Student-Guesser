@@ -58,7 +58,11 @@ def main():
                             character = "Danny"
                         else:
                             if ask_question("Does he go to gym?"):
-                                character = "Atharva"
+                                if ask_question("Is he good at football?"):
+                                    if ask_question("Is he known for his hair?"):
+                                        character = "Aryan"
+                                else:
+                                    character = "Nangare"
                 else:
                     if ask_question("Is he good at football?"):
                         if ask_question("Is he known for his hair?"):
