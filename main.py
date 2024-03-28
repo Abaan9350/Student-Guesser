@@ -53,6 +53,9 @@ def main():
                     if ask_question("Does he have a beard?"):
                         if ask_question("Kashmir?"):
                             character = "Aditya Dogra"
+                        else:
+                            if ask_question("Is he into Video editing?"):
+                                character = "Amruthesh"
                     else:
                         if ask_question("Fufu?"):
                             character = "Danny"
