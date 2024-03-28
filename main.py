@@ -10,6 +10,8 @@ def main():
     root = tk.Tk()
     root.withdraw()  # Hide the main window
 
+    custom_font = ("Helvetica", 24)  # Change the font and size as needed
+
     character = ""
 
     if ask_question("Is your character a boy?"):
@@ -19,6 +21,8 @@ def main():
                     if ask_question("Does he invest in the stock market?"):
                         if ask_question("Does he have a cat?"):
                             character = "Raihan"
+                        else:
+                            character = "Ganesh"
                     elif ask_question("Does he live in Nerul?"):
                         character = "Aditya Chaskar"
                         if ask_question("Chamdi No. 1?"):
@@ -47,6 +51,15 @@ def main():
                         else:
                             if ask_question("Does he live in Nerul?"):
                                 character = "Aditya Chaskar"
+            else:
+                if ask_question("Is he good at football?"):
+                    character = "Soham Desai"
+                else:
+                    if ask_question("Is he really good at mathematics?"):
+                        character = "Ashish!"
+                    else:
+                        if ask_question("Constant hairstyle since sem 1?"):
+                            character = "Vedant Borade"
         else:
             if ask_question("Does he get scolded in class usually?"):
                 if ask_question("Does he wear shirts frequently?"):
@@ -162,7 +175,13 @@ def main():
                                         "Is she in the college choir team?"):
                                     character = "Janaki"
                             else:
-                                character = "Vedshri"
+                                if ask_question("Airoli?"):
+                                    character = "Vedshri"
+                                else:
+                                    if ask_question("Does she have a pet fish?"):
+                                        character = "ketki"
+                                    else:
+                                        character = "Arya"
                         else:
                             if ask_question(
                                     "Is she in the college choir team?"):
@@ -170,33 +189,26 @@ def main():
                             else:
                                 character = "Vedshri"
                     else:
-                        if ask_question(
-                                "Does she have a pet fish?"):
+                        if ask_question("Does she have a pet fish?"):
                             character = "ketki"
                         else:
-                            if ask_question("Extrovert?"):
-                                pass
+                            character = "Hirtika"
+            else:
+                character = "Aastha"
         else:
-            if ask_question(
-                    "Is she in any college clubs?"):
-                if ask_question(
-                        "is she known for singing?"):
-                    if ask_question(
-                            "Is she good in academics?"):
-                        if ask_question(
-                                "Extrovert?"):
+            if ask_question("Is she in any college clubs?"):
+                if ask_question("is she known for singing?"):
+                    if ask_question("Is she good in academics?"):
+                        if ask_question("Extrovert?"):
                             character = "Shruti"
                 else:
                     character = "Archi"
             else:
-                if ask_question(
-                        "Does she have a pet cat?"):
+                if ask_question("Does she have a pet cat?"):
                     character = "Fareen"
                 else:
-                    if ask_question(
-                            "is she good in academics?"):
-                        if ask_question(
-                                "Extrovert?"):
+                    if ask_question("is she good in academics?"):
+                        if ask_question("Extrovert?"):
                             character = "Pratiksha"
                         else:
                             character = "Anannya"
@@ -207,7 +219,6 @@ def main():
         messagebox.showinfo("Result", "No character matched the criteria!")
 
     root.mainloop()
-
 
 if __name__ == "__main__":
     main()
