@@ -171,9 +171,11 @@ def main():
                     if ask_question("Is she good in academics?"):
                         if ask_question("Extrovert?"):
                             if ask_question("Good in singing?"):
-                                if ask_question(
-                                        "Is she in the college choir team?"):
+                                if ask_question("Is she in the college choir team?"):
                                     character = "Janaki"
+                                else:
+                                    if ask_question("Airoli?"):
+                                        character = "Vedshri"
                             else:
                                 if ask_question("Airoli?"):
                                     character = "Vedshri"
@@ -187,7 +189,9 @@ def main():
                                     "Is she in the college choir team?"):
                                 character = "Janaki"
                             else:
-                                character = "Vedshri"
+                                if ask_question("Airoli?"):
+                                    character = "Vedshri"
+
                     else:
                         if ask_question("Does she have a pet fish?"):
                             character = "ketki"
