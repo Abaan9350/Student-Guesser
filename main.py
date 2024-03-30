@@ -82,6 +82,9 @@ def main():
                                 character = "Sohail"
                             elif ask_question("Fufu?"):
                                 character = "Soham Chumbale"
+                            elif ask_question("Niggeshwar?"):
+                                character = "Tarun"
+
 
                     else:
                         if ask_question("Fufu?"):
