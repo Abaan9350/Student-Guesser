@@ -74,6 +74,11 @@ def main():
                         else:
                             if ask_question("Is he into Video editing?"):
                                 character = "Amruthesh"
+                            elif ask_question("Hairline?"):
+                                character = "Sohail"
+                            elif ask_question("Fufu?"):
+                                character = "Soham Chumbale"
+
                     else:
                         if ask_question("Fufu?"):
                             character = "Danny"
@@ -136,7 +141,9 @@ def main():
                                                     character = "Abhishek"
                                                 else:
                                                     character = "Vedant Borade"
-
+                            else:
+                                if ask_question("Niggeshwar?"):
+                                    character = "Tarun"
                         else:
                             if ask_question("Is he involved in any college clubs?"):
                                 if ask_question("Is he south Indian?"):
