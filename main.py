@@ -60,6 +60,10 @@ def main():
                     else:
                         if ask_question("Constant hairstyle since sem 1?"):
                             character = "Vedant Borade"
+
+
+
+        #non chashma
         else:
             if ask_question("Does he get scolded in class usually?"):
                 if ask_question("Does he wear shirts frequently?"):
@@ -98,79 +102,78 @@ def main():
                                 else:
                                     character = "Suraj"
             else:
-                if ask_question("Does he have good ball knowledge?"):
-                    if ask_question("Does he help everyone with assignments?"):
-                        character = "Sameer"
-                    else:
-                        if ask_question("Does he have a beard?")
-                            if ask_question("United fan?")
+                    if ask_question("Does he have good ball knowledge?"):
+                        if ask_question("Does he help everyone with assignments?"):
+                            character = "Sameer"
+                        else:
+                            if ask_question("Does he have a beard?"):
                                 character = "Sai"
-                        else:
-                            character = "Atharva Nangare"
-
-                if ask_question("Does he usually wear shirts?"):
-                    if ask_question("Is he good in academics?"):
-                        if ask_question("Is he in the college Drama team?"):
-                            character = "Sujit Asari"
-                        else:
-                            if ask_question("Interest in camera?"):
-                                if ask_question("Kerala?"):
-                                    character = "Amruthesh"
-
                             else:
-                                if ask_question("Autistic?"):
-                                    character = "Uday"
-                                else:
-                                    if ask_question("Constant hairstyle since Sem 1?"):
-                                        if ask_question("Good at chess?"):
-                                            if ask_question("Does he have wide eyes?")
-                                                character = "Siddhesh"
-                                            else:
-                                                character = "Hrishikesh"
-
-                                        elif ask_question("Is he good at basketball?"):
-                                            character = "Abhishek"
-                                        else:
-                                            character = "Vedant Borade"
-
-                else:
-                    if ask_question("Is he involved in any college clubs?"):
-                        if ask_question("Is he south Indian?"):
-                            character = "Aditya Venkat"
-                        else:
-                            if ask_question("Is he good at cricket?"):
-                                character = "Anish Kharat"
+                                character = "Atharva"
                     else:
-                        if ask_question("Is he good at basketball?"):
-                            character = "Abhishek"
-                        else:
-                            if ask_question("Fish??"):
-                                character = "Pravanshu"
-                            else:
-                                if ask_question("Good in academics?"):
-                                    if ask_question("Has helped everyone with assignments?"):
-                                        if ask_question("Good ball knowledge?"):
-                                            character = "Sameer"
-                                    else:
-                                        if ask_question("Interest in camera?"):
-                                            if ask_question("Kerala?"):
-                                                character = "Amruthesh"
-                                            else:
-                                                if ask_question("Diploma?"):
-                                                    character = "Harsh Patil"
-                                                else:
-                                                    character = "Sahil Pawar"
-                                        else:
-                                            if ask_question("EEEEEEE?"):
-                                                character = "Vishvesh"
-                                            else:
-                                                if ask_question("Is he autistic?"):
-                                                    character = "Uday"
-                                                else:
-                                                    character = "Anish Kharat"
+                        if ask_question("Does he usually wear shirts?"):
+                            if ask_question("Is he good in academics?"):
+                                if ask_question("Is he in the college Drama team?"):
+                                    character = "Sujit Asari"
                                 else:
-                                    if ask_question("Is he an upcoming worlwide artist?"):
-                                        character = "Krishna"
+                                    if ask_question("Interest in camera?"):
+                                        if ask_question("Kerala?"):
+                                            character = "Amruthesh"
+
+                                    else:
+                                        if ask_question("Autistic?"):
+                                            character = "Uday"
+                                        else:
+                                            if ask_question("Constant hairstyle since Sem 1?"):
+                                                if ask_question("Good at chess?"):
+                                                    if ask_question("Does he have wide eyes?"):
+                                                        character = "Siddhesh"
+                                                    else:
+                                                        character = "Hrishikesh"
+
+                                                elif ask_question("Is he good at basketball?"):
+                                                    character = "Abhishek"
+                                                else:
+                                                    character = "Vedant Borade"
+
+                        else:
+                            if ask_question("Is he involved in any college clubs?"):
+                                if ask_question("Is he south Indian?"):
+                                    character = "Aditya Venkat"
+                                else:
+                                    if ask_question("Is he good at cricket?"):
+                                        character = "Anish Kharat"
+                            else:
+                                if ask_question("Is he good at basketball?"):
+                                    character = "Abhishek"
+                                else:
+                                    if ask_question("Fish??"):
+                                        character = "Pravanshu"
+                                    else:
+                                        if ask_question("Good in academics?"):
+                                            if ask_question("Has helped everyone with assignments?"):
+                                                if ask_question("Good ball knowledge?"):
+                                                    character = "Sameer"
+                                            else:
+                                                if ask_question("Interest in camera?"):
+                                                    if ask_question("Kerala?"):
+                                                        character = "Amruthesh"
+                                                    else:
+                                                        if ask_question("Diploma?"):
+                                                            character = "Harsh Patil"
+                                                        else:
+                                                            character = "Sahil Pawar"
+                                                else:
+                                                    if ask_question("EEEEEEE?"):
+                                                        character = "Vishvesh"
+                                                    else:
+                                                        if ask_question("Is he autistic?"):
+                                                            character = "Uday"
+                                                        else:
+                                                            character = "Anish Kharat"
+                                        else:
+                                            if ask_question("Is he an upcoming worlwide artist?"):
+                                                character = "Krishna"
     else:
         if ask_question("Does she wear spectacles?"):
             if ask_question("Is she in any college clubs?"):
