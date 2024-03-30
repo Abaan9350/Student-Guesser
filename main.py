@@ -51,6 +51,9 @@ def main():
                         else:
                             if ask_question("Does he live in Nerul?"):
                                 character = "Aditya Chaskar"
+                            else:
+                                if ask_question("Alibaug?"):
+                                    character = "Manthan"
             else:
                 if ask_question("Is he good at football?"):
                     character = "Soham Desai"
@@ -60,8 +63,6 @@ def main():
                     else:
                         if ask_question("Constant hairstyle since sem 1?"):
                             character = "Vedant Borade"
-
-
 
         #non chashma
         else:
@@ -228,6 +229,8 @@ def main():
                             character = "Pratiksha"
                         else:
                             character = "Anannya"
+                    else:
+                        character = "Alina"
 
     if character:
         messagebox.showinfo("Result", f"You are thinking of {character}!")
