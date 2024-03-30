@@ -102,8 +102,7 @@ def main():
                     if ask_question("Does he help everyone with assignments?"):
                         character = "Sameer"
                     else:
-                        if ask_question("Does he have good ball knowledge?"):
-                            character = "Atharva Nangare!"
+                        character = "Atharva Nangare!"
 
                 if ask_question("Does he usually wear shirts?"):
                     if ask_question("Is he good in academics?"):
@@ -120,7 +119,7 @@ def main():
                                 else:
                                     if ask_question("Constant hairstyle since Sem 1?"):
                                         if ask_question("Good at chess?"):
-                                            character = "Hrishikesh"
+                                            character = "Hrishikesh or Siddhesh"
 
                                         elif ask_question("Is he good at basketball?"):
                                             character = "Abhishek"
@@ -221,8 +220,6 @@ def main():
         messagebox.showinfo("Result", f"You are thinking of {character}!")
     else:
         messagebox.showinfo("Result", "No character matched the criteria!")
-
-    root.mainloop()
 
 if __name__ == "__main__":
     main()
