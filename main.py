@@ -102,7 +102,11 @@ def main():
                     if ask_question("Does he help everyone with assignments?"):
                         character = "Sameer"
                     else:
-                        character = "Atharva Nangare!"
+                        if ask_question("Does he have a beard?")
+                            if ask_question("United fan?")
+                                character = "Sai"
+                        else:
+                            character = "Atharva Nangare"
 
                 if ask_question("Does he usually wear shirts?"):
                     if ask_question("Is he good in academics?"):
@@ -119,7 +123,10 @@ def main():
                                 else:
                                     if ask_question("Constant hairstyle since Sem 1?"):
                                         if ask_question("Good at chess?"):
-                                            character = "Hrishikesh or Siddhesh"
+                                            if ask_question("Does he have wide eyes?")
+                                                character = "Siddhesh"
+                                            else:
+                                                character = "Hrishikesh"
 
                                         elif ask_question("Is he good at basketball?"):
                                             character = "Abhishek"
@@ -149,7 +156,10 @@ def main():
                                             if ask_question("Kerala?"):
                                                 character = "Amruthesh"
                                             else:
-                                                character = "Sahil Pawar"
+                                                if ask_question("Diploma?"):
+                                                    character = "Harsh Patil"
+                                                else:
+                                                    character = "Sahil Pawar"
                                         else:
                                             if ask_question("EEEEEEE?"):
                                                 character = "Vishvesh"
