@@ -62,7 +62,11 @@ def main():
                         character = "Ashish!"
                     else:
                         if ask_question("Constant hairstyle since sem 1?"):
-                            character = "Vedant Borade"
+                            if ask_question("Ladies?"):
+                                character = "Vedant Patil"
+                            else:
+                                character = "Vedant Borade"
+
 
         #non chashma
         else:
